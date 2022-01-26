@@ -1,0 +1,6 @@
+      saltConfiguration:
+        masterId: saltstack_enterprise_installer
+        minionId: '${self.resourceName}
+        saltEnviroment: base
+        stateFiles:
+          - top.sls
