@@ -1,0 +1,8 @@
+inputs:
+  hostname:
+    title: Hostname
+    description: Enter the Hostname
+    type: string
+    minLength: 4
+    maxLength: 15
+    pattern: '[a-zA-Z0-9]'
